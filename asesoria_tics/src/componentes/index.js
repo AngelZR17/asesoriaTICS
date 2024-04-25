@@ -8,15 +8,16 @@ export const Index = () => {
                 <h1>¿Qué puedes hacer en la red, internet o wifi?</h1>
             </div>
             <div class="row">
-            <div className = 'textcontainer' class="col-8">
-                <p>
-                    Esta pagina tiene como objetivo asesorar a los adultos en el uso de las tics, se les instruira 
-                    para que ellos mismos puedan hacer pagos en linea, usar las redes sociales, aprender a usar ciertas 
-                    aplicaciones como Facebook, Whatsapp, etc.
-                </p>
-                
-            </div>
-            <img class="col-4" src={imagenEjemplo}/>
+                <div className = 'textcontainer' class="col-8">
+                    <p>
+                        Esta pagina tiene como objetivo asesorar a los adultos en el uso de las tics, se les instruira 
+                        para que ellos mismos puedan hacer pagos en linea, usar las redes sociales, aprender a usar ciertas 
+                        aplicaciones como Facebook, Whatsapp, etc.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img  src={imagenEjemplo} class="img-fluid"/>
+                </div>
             </div>
             
         </div>
