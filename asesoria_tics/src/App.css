@@ -9,18 +9,10 @@
 }
 
 .textcontainer{
-  margin-top: 30px;
-  display: flex;
+  margin-bottom: 10%;
   align-items: start;
-  text-align: justify;
-  width: 60%;
-}
-
-.img1{
-  position: absolute;
-  width: 30%;
-  left: 125vh;
-  top: 25vh;
+  text-align: center;
+  display: flex;
 }
 
 .App {
