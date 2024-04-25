@@ -4,8 +4,23 @@
   width: 100%;
 }
 
-.divfix{
-  margin-top: 60px;
+.container{
+  margin-top: 70px;
+}
+
+.textcontainer{
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  text-align: justify;
+  width: 60%;
+}
+
+.img1{
+  position: absolute;
+  width: 30%;
+  left: 125vh;
+  top: 25vh;
 }
 
 .App {
