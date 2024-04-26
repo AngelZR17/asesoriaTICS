@@ -4,6 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { NavBar } from './componentes/navbar';
 import { Index } from './componentes/index';
 
+
 function App() {
   return (
     <div className="App">
