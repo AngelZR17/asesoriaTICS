@@ -8,6 +8,7 @@ import facebook from '../imagenes/facebook.png'
 import whatsapp from '../imagenes/whatsapp.png'
 import chrome from '../imagenes/chrome.png'
 import { Card } from "./card";
+import { Link } from "react-router-dom";
 
 export const Index = () => {
     return(
@@ -44,6 +45,7 @@ export const Index = () => {
                         image={cfe}
                         title="CFE"
                         description="Aprender a consultar recibo de luz"
+                        link='/cfe'
                     />
                 </div>
                 <div className="col-4">
@@ -51,6 +53,7 @@ export const Index = () => {
                         image={conagua}
                         title="CONAGUA"
                         description="Aprender a consultar recibo del agua"
+                        link='/conagua'
                     />
                 </div>
                 <div className="col-4">
@@ -58,6 +61,7 @@ export const Index = () => {
                         image={infinitum}
                         title="INFINITUM"
                         description="Aprender a consultar recibo de internet"
+                        link='/infinitum'
                     />
                 </div>
             </div>
@@ -67,6 +71,7 @@ export const Index = () => {
                         image={facebook}
                         title="FACEBOOK"
                         description="Aprender a usar facebook"
+                        link='/facebook'
                     />
                 </div>
                 <div className="col-4">
@@ -74,13 +79,15 @@ export const Index = () => {
                         image={whatsapp}
                         title="WHATSAPP"
                         description="Aprender a usar whatsapp"
+                        link='/whatsapp'
                     />
                 </div>
                 <div className="col-4">
                     <Card
                         image={chrome}
-                        title="CHROME"
+                        title="NAVEGADORES"
                         description="Aprender a usar un navegador web"
+                        link='/navegadores'
                     />
                 </div>
             </div>

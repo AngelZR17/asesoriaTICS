@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-export const Card = ({ image, title, description }) => {
+export const Card = ({ image, title, description, link }) => {
   return (
     <div className="card">
       <div className="image">
@@ -9,10 +10,12 @@ export const Card = ({ image, title, description }) => {
       <div className="content">
         <p className="title">{title}</p>
         <p className="desc">{description}</p>
-        <a className="action" href="#">
+        <Link to={link}>
+          <button className="action">
           Ver guía
           <span aria-hidden="true">→</span>
-        </a>
+        </button>
+        </Link>
       </div>
     </div>
   );
