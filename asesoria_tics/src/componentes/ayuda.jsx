@@ -1,7 +1,9 @@
+import { Button } from "bootstrap";
 import React from "react";
 import LoremIpsum from "react-lorem-ipsum";
+import { Link } from "react-router-dom";
 
-export const Ayuda = ({ title }) => {
+export const Ayuda = ({ title, description }) => {
     return(
         <div class = 'container'>
             <div class="row">
@@ -10,10 +12,15 @@ export const Ayuda = ({ title }) => {
             <div class="row">
                 <div className = 'textcontainer col-8 card'>
                     <p className="card-body desc" style={{ textAlign: 'justify', marginTop: '35px'}}>
-                        <LoremIpsum/>
+                        {description}
                     </p>
                 </div>
             </div>
+            <Link to='/'>
+                <button>
+                    <p>Regresar</p>
+                </button>
+            </Link>
         </div>
     );
 }

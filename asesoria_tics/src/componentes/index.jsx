@@ -2,13 +2,12 @@ import React from "react";
 import imagenEjemplo from '../imagenes/img1.jpg';
 import imagenEjemplo2 from '../imagenes/img2.jpg';
 import cfe from '../imagenes/cfe.png'
-import conagua from '../imagenes/conagua.png'
-import infinitum from '../imagenes/infinitum.png'
+import terminos from '../imagenes/terminos.jpeg'
+import mercado from '../imagenes/mercado-libre.png'
 import facebook from '../imagenes/facebook.png'
 import whatsapp from '../imagenes/whatsapp.png'
 import chrome from '../imagenes/chrome.png'
 import { Card } from "./card";
-import { Link } from "react-router-dom";
 
 export const Index = () => {
     return(
@@ -42,25 +41,25 @@ export const Index = () => {
             <div className="row">
                 <div className="col-4">
                     <Card
-                        image={cfe}
-                        title="CFE"
-                        description="Aprender a consultar recibo de luz"
-                        link='/cfe'
-                    />
-                </div>
-                <div className="col-4">
-                    <Card
-                        image={conagua}
-                        title="CONAGUA"
-                        description="Aprender a consultar recibo del agua"
+                        image={terminos}
+                        title="Terminos de TICs"
+                        description="Lista de terminos"
                         link='/conagua'
                     />
                 </div>
                 <div className="col-4">
                     <Card
-                        image={infinitum}
-                        title="INFINITUM"
-                        description="Aprender a consultar recibo de internet"
+                        image={cfe}
+                        title="CFE"
+                        description="Aprender a consultar el recibo de la luz "
+                        link='/cfe'
+                    />
+                </div>
+                <div className="col-4">
+                    <Card
+                        image={mercado}
+                        title="MERCADO LIBRE"
+                        description="Aprender a comprar en linea"
                         link='/infinitum'
                     />
                 </div>

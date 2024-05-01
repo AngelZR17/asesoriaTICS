@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/js/bootstrap.bundle.js';
 import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes } from "react-router-dom";
 import { NavBar } from './componentes/navbar';
 import { Index } from './componentes/index';
@@ -11,14 +11,13 @@ import { FACEBOOK } from './componentes/facebook';
 import { WHATSAPP } from './componentes/whatsapp';
 import { NAVEGADORES } from './componentes/navegadores';
 
-
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <NavBar></NavBar>
         <Routes>
-          <Route path='' element= {<Index></Index>}></Route>
+          <Route path='/' element= {<Index></Index>}></Route>
           <Route path='/cfe' element= {<CFE></CFE>}></Route>
           <Route path='/conagua' element= {<CONAGUA></CONAGUA>}></Route>
           <Route path='/infinitum' element= {<INFINITUM></INFINITUM>}></Route>
