@@ -1,10 +1,10 @@
 import React from "react";
 import { Ayuda } from "./ayuda";
 
-export const INFINITUM = () => {
+export const TERMINOS = () => {
     return(
         <Ayuda
-            title="INFINITUM"
+            title="Términos de TICs"
         />
     );
 }

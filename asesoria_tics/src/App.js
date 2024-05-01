@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes } from "r
 import { NavBar } from './componentes/navbar';
 import { Index } from './componentes/index';
 import { CFE } from './componentes/cfe';
-import { CONAGUA } from './componentes/conagua';
-import { INFINITUM } from './componentes/infinitum';
+import { TERMINOS } from './componentes/terminos';
+import { MERCADO } from './componentes/mercado';
 import { FACEBOOK } from './componentes/facebook';
 import { WHATSAPP } from './componentes/whatsapp';
 import { NAVEGADORES } from './componentes/navegadores';
@@ -19,8 +19,8 @@ function App() {
         <Routes>
           <Route path='/' element= {<Index></Index>}></Route>
           <Route path='/cfe' element= {<CFE></CFE>}></Route>
-          <Route path='/conagua' element= {<CONAGUA></CONAGUA>}></Route>
-          <Route path='/infinitum' element= {<INFINITUM></INFINITUM>}></Route>
+          <Route path='/terminos' element= {<TERMINOS></TERMINOS>}></Route>
+          <Route path='/mercado' element= {<MERCADO></MERCADO>}></Route>
           <Route path='/facebook' element= {<FACEBOOK></FACEBOOK>}></Route>
           <Route path='/whatsapp' element= {<WHATSAPP></WHATSAPP>}></Route>
           <Route path='/navegadores' element= {<NAVEGADORES></NAVEGADORES>}></Route>

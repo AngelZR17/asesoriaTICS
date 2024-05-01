@@ -44,9 +44,11 @@ export const Index = () => {
                         image={terminos}
                         title="Terminos de TICs"
                         description="Lista de terminos"
-                        link='/conagua'
+                        link='/terminos'
                     />
                 </div>
+            </div>
+            <div class="row">
                 <div className="col-4">
                     <Card
                         image={cfe}
@@ -60,7 +62,7 @@ export const Index = () => {
                         image={mercado}
                         title="MERCADO LIBRE"
                         description="Aprender a comprar en linea"
-                        link='/infinitum'
+                        link='/mercado'
                     />
                 </div>
             </div>

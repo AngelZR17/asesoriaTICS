@@ -24,7 +24,7 @@ export const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link to='/conagua' className="nav-link">Términos de TICs</Link>
+                            <Link to='/terminos' className="nav-link">Términos de TICs</Link>
                         </li>
                         <li className="nav-item dropdown" ref={tutorialsDropdownRef}>
                             <a className="nav-link dropdown-toggle" role="button" aria-expanded={tutorialsOpen ? "true" : "false"} onClick={toggleTutorials}>
@@ -35,7 +35,7 @@ export const NavBar = () => {
                                     <Link to='/cfe' className="dropdown-item">CFE</Link>
                                 </li>
                                 <li>
-                                    <Link to='/infinitum' className="dropdown-item">Mercado Libre</Link>
+                                    <Link to='/mercado' className="dropdown-item">Mercado Libre</Link>
                                 </li>
                             </ul>
                         </li>

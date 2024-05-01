@@ -1,10 +1,10 @@
 import React from "react";
 import { Ayuda } from "./ayuda";
 
-export const CONAGUA = () => {
+export const MERCADO = () => {
     return(
         <Ayuda
-            title="CONAGUASOL"
+            title="Mercado Libre"
         />
     );
 }
