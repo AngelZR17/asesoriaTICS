@@ -1,14 +1,10 @@
 import React from "react";
-import { Ayuda } from "./ayuda";
-import LoremIpsum from "react-lorem-ipsum";
+import { Regresar } from "./btnRegresar";
 
 export const NAVEGADORES = () => {
     return(
-        <div>
-        <Ayuda
-            title="NAVEGADORES"
-        />
-        
+        <div class = 'container'>
+            <Regresar/>
         </div>
     );
 }

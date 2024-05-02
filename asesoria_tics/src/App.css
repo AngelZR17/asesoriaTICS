@@ -101,7 +101,7 @@
   font-weight: 500;
   align-items: center;
   gap: 0.25rem;
-  background-color: #2563EB;
+  background-color: #4c61ed;
   padding: 4px 8px;
   border-radius: 4px;
 }
@@ -112,6 +112,48 @@
 
 .action:hover span {
   transform: translateX(4px);
+}
+
+.action:hover {
+  transition: .3s ease;
+  background-color: #2a3aa8;
+}
+
+.action:not(hover) {
+  transition: .3s ease;
+  background-color: #4c61ed;
+}
+
+.actionback {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #f34646;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.actionback span {
+  transition: .3s ease;
+}
+
+.actionback:hover span {
+  transform: translateX(-4px);
+}
+
+.actionback:hover {
+  transition: .3s ease;
+  background-color: #c43232;
+}
+
+.actionback:not(hover) {
+  transition: .3s ease;
+  background-color: #f34646;
 }
 
 .row {

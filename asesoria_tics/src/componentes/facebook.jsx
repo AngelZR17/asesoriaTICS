@@ -1,11 +1,10 @@
 import React from "react";
-import { Ayuda } from "./ayuda";
+import { Regresar } from "./btnRegresar";
 
 export const FACEBOOK = () => {
     return(
-        <Ayuda
-            title="FACEBOOK"
-            description="Su perra ma"
-        />
+        <div class = 'container'>
+            <Regresar/>
+        </div>
     );
 }

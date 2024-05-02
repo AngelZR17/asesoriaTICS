@@ -1,10 +1,10 @@
 import React from "react";
-import { Ayuda } from "./ayuda";
+import { Regresar } from "./btnRegresar";
 
 export const WHATSAPP = () => {
     return(
-        <Ayuda
-            title="WHATSAPP"
-        />
+        <div class = 'container'>
+            <Regresar/>
+        </div>
     );
 }

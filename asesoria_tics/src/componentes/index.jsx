@@ -1,13 +1,9 @@
 import React from "react";
 import imagenEjemplo from '../imagenes/img1.jpg';
 import imagenEjemplo2 from '../imagenes/img2.jpg';
-import cfe from '../imagenes/cfe.png'
-import terminos from '../imagenes/terminos.jpeg'
-import mercado from '../imagenes/mercado-libre.png'
-import facebook from '../imagenes/facebook.png'
-import whatsapp from '../imagenes/whatsapp.png'
-import chrome from '../imagenes/chrome.png'
-import { Card } from "./card";
+import { Cards1 } from "./gpCards1";
+import { Cards2 } from "./gpCards2";
+import { Cards3 } from "./gpCards3";
 
 export const Index = () => {
     return(
@@ -39,58 +35,13 @@ export const Index = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-4">
-                    <Card
-                        image={terminos}
-                        title="Terminos de TICs"
-                        description="Lista de terminos"
-                        link='/terminos'
-                    />
-                </div>
+                <Cards1/>
             </div>
             <div class="row">
-                <div className="col-4">
-                    <Card
-                        image={cfe}
-                        title="CFE"
-                        description="Aprender a consultar el recibo de la luz "
-                        link='/cfe'
-                    />
-                </div>
-                <div className="col-4">
-                    <Card
-                        image={mercado}
-                        title="MERCADO LIBRE"
-                        description="Aprender a comprar en linea"
-                        link='/mercado'
-                    />
-                </div>
+                <Cards2/>
             </div>
             <div className="row">
-                <div className="col-4">
-                    <Card
-                        image={facebook}
-                        title="FACEBOOK"
-                        description="Aprender a usar facebook"
-                        link='/facebook'
-                    />
-                </div>
-                <div className="col-4">
-                    <Card
-                        image={whatsapp}
-                        title="WHATSAPP"
-                        description="Aprender a usar whatsapp"
-                        link='/whatsapp'
-                    />
-                </div>
-                <div className="col-4">
-                    <Card
-                        image={chrome}
-                        title="NAVEGADORES"
-                        description="Aprender a usar un navegador web"
-                        link='/navegadores'
-                    />
-                </div>
+                <Cards3/>
             </div>
         </div>
     );

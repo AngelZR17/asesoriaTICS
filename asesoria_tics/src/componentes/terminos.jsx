@@ -1,10 +1,10 @@
 import React from "react";
-import { Ayuda } from "./ayuda";
+import { Regresar } from "./btnRegresar";
 
 export const TERMINOS = () => {
     return(
-        <Ayuda
-            title="Términos de TICs"
-        />
+        <div class = 'container'>
+            <Regresar/>
+        </div>
     );
 }

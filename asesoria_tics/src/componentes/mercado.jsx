@@ -1,10 +1,10 @@
 import React from "react";
-import { Ayuda } from "./ayuda";
+import { Regresar } from "./btnRegresar";
 
 export const MERCADO = () => {
     return(
-        <Ayuda
-            title="Mercado Libre"
-        />
+        <div class = 'container'>
+            <Regresar/>
+        </div>
     );
 }
