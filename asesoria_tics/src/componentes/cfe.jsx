@@ -35,10 +35,10 @@ export const CFE = () => {
             <img  src={paso2} class="img-fluid" alt="Prueba" style={{ marginBottom: '20px', width: '500px' }}/>
             <p><strong>Paso 3: </strong> Damos clic en la casilla de No soy un robot para posteriormente dar clic en el botón de Continuar</p>
             <img  src={paso3} class="img-fluid" alt="Prueba" style={{ marginBottom: '20px', width: '500px' }}/>
-            <p><strong>Paso 4: </strong> Una vez dado al botón de "Continuar" se nos abre la siguiente página donde <br/>podemos visualizar todos nuestros recibos, para descargarlos solo damos clic en el icono pdf </p>
+            <p><strong>Paso 4: </strong> Una vez dado al botón de "Continuar" se nos abre la siguiente página donde <br/>podemos visualizar todos nuestros recibos, para descargarlos solo damos clic en el icono pdf correspondiente a la fecha que deseas consultar </p>
             <img  src={paso4} class="img-fluid" alt="Prueba" style={{ marginBottom: '20px', width: '300px' }}/>
         </div>
-        <Regresar></Regresar>
+        <Regresar/>
         </>
     );
 }
