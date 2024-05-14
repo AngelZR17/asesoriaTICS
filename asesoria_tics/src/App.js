@@ -6,10 +6,11 @@ import { NavBar } from './componentes/navbar';
 import { Index } from './componentes/index';
 import { CFE } from './componentes/cfe';
 import { TERMINOS } from './componentes/terminos';
-import { MERCADO } from './componentes/mercado';
+import { SHEIN } from './componentes/shein';
 import { FACEBOOK } from './componentes/facebook';
 import { WHATSAPP } from './componentes/whatsapp';
 import { NAVEGADORES } from './componentes/navegadores';
+
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route path='/' element= {<Index></Index>}></Route>
           <Route path='/cfe' element= {<CFE></CFE>}></Route>
           <Route path='/terminos' element= {<TERMINOS></TERMINOS>}></Route>
-          <Route path='/mercado' element= {<MERCADO></MERCADO>}></Route>
+          <Route path='/shein' element= {<SHEIN></SHEIN>}></Route>
           <Route path='/facebook' element= {<FACEBOOK></FACEBOOK>}></Route>
           <Route path='/whatsapp' element= {<WHATSAPP></WHATSAPP>}></Route>
           <Route path='/navegadores' element= {<NAVEGADORES></NAVEGADORES>}></Route>

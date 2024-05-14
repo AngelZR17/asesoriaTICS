@@ -1,7 +1,7 @@
 import React from "react";
 import { Regresar } from "./btnRegresar";
 
-export const MERCADO = () => {
+export const SHEIN = () => {
     return(
         <div class = 'container'>
             <Regresar/>

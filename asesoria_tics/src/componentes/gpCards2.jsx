@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "./card";
 import cfe from '../imagenes/cfe.png'
-import mercado from '../imagenes/mercado-libre.png'
+import shein from '../imagenes/shein.png'
 
 export const Cards2 = () => {
     return(
@@ -16,10 +16,10 @@ export const Cards2 = () => {
         </div>
         <div className="col-4">
             <Card
-            image={mercado}
-            title="MERCADO LIBRE"
+            image={shein}
+            title="SHEIN"
             description="Aprender a comprar en linea"
-            link='/mercado'
+            link='/shein'
             />
         </div>
         </>
