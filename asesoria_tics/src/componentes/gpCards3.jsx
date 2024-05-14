@@ -11,7 +11,7 @@ export const Cards3 = () => {
             <Card
             image={facebook}
             title="FACEBOOK"
-            description="Aprender a usar facebook"
+            description="Aprender a crear una cuenta de facebook"
             link='/facebook'
             />
         </div>
@@ -19,7 +19,7 @@ export const Cards3 = () => {
             <Card
             image={whatsapp}
             title="WHATSAPP"
-            description="Aprender a usar whatsapp"
+            description="Aprender a crear una cuenta de whatsapp"
             link='/whatsapp'
             />
         </div>

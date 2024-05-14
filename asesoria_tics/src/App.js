@@ -11,7 +11,6 @@ import { FACEBOOK } from './componentes/facebook';
 import { WHATSAPP } from './componentes/whatsapp';
 import { NAVEGADORES } from './componentes/navegadores';
 
-
 function App() {
   return (
     <div className="App">

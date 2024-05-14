@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import imagenEjemplo from '../imagenes/img1.jpg';
 import imagenEjemplo2 from '../imagenes/img2.jpg';
 import { Cards1 } from "./gpCards1";
@@ -6,6 +6,11 @@ import { Cards2 } from "./gpCards2";
 import { Cards3 } from "./gpCards3";
 
 export const Index = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return(
         <div class = 'container'>
             <div class="row">

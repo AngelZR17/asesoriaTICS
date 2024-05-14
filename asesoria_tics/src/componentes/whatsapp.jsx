@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Regresar } from "./btnRegresar";
 import paso1 from '../imagenes/guia whatsapp/paso1.jpg';
 import paso2 from '../imagenes/guia whatsapp/paso2.jpg';
@@ -10,6 +10,11 @@ import paso7 from '../imagenes/guia whatsapp/paso7.jpg';
 import paso8 from '../imagenes/guia whatsapp/paso8.jpg';
 
 export const WHATSAPP = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);    
+
     return(
         <>
         <div className = 'container'>

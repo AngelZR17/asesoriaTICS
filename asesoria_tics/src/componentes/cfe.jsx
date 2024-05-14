@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Regresar } from "./btnRegresar";
 import { Link } from "react-router-dom";
 import ejemplo from '../imagenes/guia cfe/ejemplo.png';
@@ -7,6 +7,11 @@ import paso3 from '../imagenes/guia cfe/paso3.png';
 import paso4 from '../imagenes/guia cfe/paso4.png';
 
 export const CFE = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);    
+
     return(
         <>
         <div className = 'container'>

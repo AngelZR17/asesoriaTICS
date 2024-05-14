@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Regresar } from "./btnRegresar";
 import paso1 from '../imagenes/guia shein/paso1.jpg';
 import paso2 from '../imagenes/guia shein/paso2.jpg';
@@ -11,6 +11,11 @@ import paso8 from '../imagenes/guia shein/paso8.jpg';
 import paso9 from '../imagenes/guia shein/paso9.jpg';
 
 export const SHEIN = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);    
+
     return(
         <>
         <div className = 'container'>

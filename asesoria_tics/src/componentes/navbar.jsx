@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
 export const NavBar = () => {
@@ -18,7 +18,7 @@ export const NavBar = () => {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark" data-bs-theme="dark">
             <div className="container-fluid">
                 <Link to='/' className="navbar-brand">Inicio</Link>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -35,7 +35,7 @@ export const NavBar = () => {
                                     <Link to='/cfe' className="dropdown-item">CFE</Link>
                                 </li>
                                 <li>
-                                    <Link to='/mercado' className="dropdown-item">Mercado Libre</Link>
+                                    <Link to='/shein' className="dropdown-item">Shein</Link>
                                 </li>
                             </ul>
                         </li>

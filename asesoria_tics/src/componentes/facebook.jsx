@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Regresar } from "./btnRegresar";
 
 export const FACEBOOK = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);    
+
     return(
         <>
         <div className = 'container'>
