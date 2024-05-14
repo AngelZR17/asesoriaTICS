@@ -20,7 +20,7 @@ export const CFE = () => {
                 <p>Nota: Antes de consultar tu recibo en digital, recuerda contar con un recibo en físico a la mano</p>
             </div>
             <div className='card' style={{borderColor: 'black', borderWidth: '2px', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', maxWidth: '80%', paddingTop: '15px'}}> 
-                <p><strong>Paso 1: </strong> Ingresa al siguiente enlace en tu navegador de preferencia →
+                <p><strong>Paso 1: </strong> Ingresa al siguiente enlace en tu navegador de preferencia →&nbsp;
                     <Link to='https://app.cfe.mx/Aplicaciones/CCFE/SolicitudesCFE/Solicitudes/ConsultaTuReciboLuzGmx' target='_blank'>
                         Consultar recibo CFE
                     </Link>
