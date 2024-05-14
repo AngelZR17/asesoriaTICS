@@ -6,7 +6,6 @@ export const FACEBOOK = () => {
         <>
         <div className = 'container'>
             <h2>Como crear una cuenta de Facebook</h2>
-            <p>pito</p>
         </div>
         <Regresar/>
         </>

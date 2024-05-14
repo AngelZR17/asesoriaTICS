@@ -8,8 +8,8 @@ export const Cards1 = () => {
         <div className="col-4">
             <Card
             image={terminos}
-            title="Terminos de TICs"
-            description="Lista de terminos"
+            title="Términos de TICs"
+            description="Lista de términos"
             link='/terminos'
             />
         </div>
